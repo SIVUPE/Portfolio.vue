@@ -15,12 +15,12 @@ const routes = [
   {
     path: '/resume',
     name: 'resume',
-    component: ()=> import ('@/views/resumeView.vue')
+    component: ()=> import ('@/views/ResumeView.vue')
   },
   {
     path: '/testimonials',
     name: 'testimonials',
-    component: ()=> import ('@/views/testimonialsView.vue')
+    component: ()=> import ('@/views/TestimonialsView.vue')
   },
   {
     path: '/Projects',
@@ -30,7 +30,7 @@ const routes = [
   {
     path: '/contact',
     name: 'contact',
-    component: ()=> import ('@/views/contactView.vue')
+    component: ()=> import ('@/views/ContactView.vue')
   },
 ]
 
