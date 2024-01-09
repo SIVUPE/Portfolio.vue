@@ -1,30 +1,32 @@
 <template>
-  <nav>
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/resume">Resume</router-link> |
+    <router-link to="/testimonials">Testimonials</router-link> |
+    <router-link to="/skills">Skills</router-link> |
+    <router-link to="/contact">Contact</router-link>
+  </nav> -->
+  <navbar>
+    
+      <main class="container-fluid">
+        <router-view/>
+     </main>  
+  </navbar>
+  <Footer>
+  </Footer>
+  
 </template>
+<script>
+import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+export default {
+  components:{
+    Navbar,
+    Footer
+  }
 }
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+</script>
+<style src="@/assets/css/style.css">
 </style>
