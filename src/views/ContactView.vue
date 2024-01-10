@@ -2,9 +2,7 @@
     <section id="contact">
   <div class="contact-box">
     <div class="contact-links">
-    
-      <h2 class="contact color-dark">CONTACT</h2>
-
+  
       <h2>CONTACT</h2>
 
       <div class="links">
@@ -23,8 +21,7 @@
       </div>
     </div>
     <div class="contact-form-wrapper">
-      <form action="https://formspree.io/f/xwkgpezy" method="post">
-      <form>
+      <form  action="https://formspree.io/f/xwkgpezy" method="post">
 
         <div class="form-item">
           <input type="text" name="sender" required>
