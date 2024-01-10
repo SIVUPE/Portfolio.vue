@@ -27,7 +27,7 @@ img[alt="logo"]{
     color: #2c3e50;
   }
   
-  nav a.router-link-exact-active {
+  nav a.router-link-exact-active {https://github.com/SIVUPE/Portfolio.vue/pull/3/conflict?name=src%252Fassets%252Fcss%252Fstyle.css&ancestor_oid=6c55b7a2e641ccb77a8104cead76113fcaa15fcb&base_oid=6af0380c9985085d31779dfa8d7479617b0ff76a&head_oid=d68c3b6365f890f812b3f383a3ebf8e224b02937
     color: #42b983;
   }
   /* body{
@@ -116,6 +116,67 @@ body {
   .contact-form-wrapper {
     border-radius: 0 0 10px 10px;
   }
+
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-box {
+    width: 95%;
+    margin: 8% 5%;
+  }
+}
+
+h2 {
+  font-family: 'Arimo', sans-serif;
+  color: #fff;
+  font-size: clamp(30px, 6vw, 60px);
+  letter-spacing: 2px;
+  text-align: center;
+  transform: scale(.95, 1);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.link {
+  margin: 10px;
+  cursor: pointer;
+}
+
+#img {
+  width: 45px;
+  height: 45px;
+  filter: 
+    hue-rotate(220deg)
+    drop-shadow(2px 4px 4px #0006);
+  transition: 0.2s;
+  user-select: none;
+}
+
+img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+img:active {
+  transform: scale(1.1, 1.1);
+  filter: 
+    hue-rotate(220deg)
+    drop-shadow(2px 4px 4px #222)
+    sepia(0.3);
+}
+
+.form-item {
+  position: relative;
+}
+
+label, input, textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
 }
 
 @media only screen and (max-width: 400px) {
