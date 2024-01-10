@@ -38,6 +38,7 @@ actions: {
   async fetchTestimonials(context) {
     let res = await fetch(dataUrl)
     let {testimonials} = await res.json() 
+    console.log(testimonials);
     context.commit('setTestimonials', testimonials);
   },
   Catch
