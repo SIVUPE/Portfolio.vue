@@ -2,8 +2,8 @@
   <div class="about">
     <h1 class="h1 mt-3">about</h1>
     <div class="row ">
-      <div class="col-4  ">
-        <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSb-NSTj-NrTn_OngU916psbv89gP4uw4eYkyUmrbanKibiRtxeUppTcLpwSqOv0nYctsFxsgJMQvTJjb9LYtybHeYJ7Q=w1960-h3978" width="250rem" class="img " alt="profile" >
+      <div class="col-4">
+        <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSb-NSTj-NrTn_OngU916psbv89gP4uw4eYkyUmrbanKibiRtxeUppTcLpwSqOv0nYctsFxsgJMQvTJjb9LYtybHeYJ7Q=w1960-h3978" loading="lazy" width="250rem" class="img " alt="profile" >
       </div>
       <div class="col-5">
         <p class="text1 mt-5">
