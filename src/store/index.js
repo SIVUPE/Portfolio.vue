@@ -13,12 +13,6 @@ export default createStore({
   getters: {
   },
   mutations: {
-    setJobTitle(state, value) {
-      state.jobTitle = value;
-  },
-  setAbout(state, value) {
-    state.about = value
-  },
   setEducation(state, value) {
     state.education = value
   },
@@ -29,15 +23,43 @@ export default createStore({
     state.testimonials = value
   },
   setProjects(state, value) {
-    state.projects = value
+    state.Projects = value
   }
   },
 actions: {
-  async fetchJobTitle(context) {
+  async fetchEducation(context) {
     let res = await fetch(dataUrl)
-    let {jobTitle} = await res.json() 
-    context.commit('setJobTitle', jobTitle);
+    let {education} = await res.json() 
+    context.commit('setEducation', education);
   },
+  catch (error) {
+    console.log(`Error: ${error}`);
+  },
+  async fetchTestimonials(context) {
+    let res = await fetch(dataUrl)
+    let {testimonials} = await res.json() 
+    context.commit('setTestimonials', testimonials);
+  },
+  Catch
+   (error) {
+    console.log(`Error: ${error}`);
+  },
+  async fetchProjects(context) {
+    let res = await fetch(dataUrl)
+    let {projects} = await res.json() 
+    context.commit('setProjects', projects);
+  },
+  catche (error) {
+    console.log(`Error: ${error}`);
+  },
+  async fetchSkills(context) {
+    let res = await fetch(dataUrl)
+    let {skills} = await res.json() 
+    context.commit('setSkills', skills);
+  },
+  catchh (error) {
+    console.log(`Error: ${error}`);
+  }
  
 }
 })
