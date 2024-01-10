@@ -11,27 +11,27 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
              <li class="nav-item">
                <RouterLink class="nav-link active" to="/">
-                     Home
+                     Home |
                </RouterLink>
              </li>
              <li class="nav-item">
                <RouterLink class="nav-link active" to="/about">
-                     About
+                     About |
                </RouterLink>
              </li>
              <li class="nav-item">
                <RouterLink class="nav-link active" to="/resume">
-                     resume
+                     resume |
                </RouterLink>
              </li>
              <li class="nav-item">
                <RouterLink class="nav-link active" to="/Projects">
-                    Projects
+                    Projects |
                </RouterLink>
              </li>
              <li class="nav-item">
                <RouterLink class="nav-link active" to="/testimonials">
-                     Testimonials
+                     Testimonials |
                </RouterLink>
              </li>
              <li class="nav-item">
