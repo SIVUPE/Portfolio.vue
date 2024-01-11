@@ -1,27 +1,33 @@
 <template lang="">
     <div>
-        <h1>projects</h1>
-        <template>
      <div class="container vh-150">
-        <h5 class="display-5">Testimonials</h5>
+        <h5 class="display-5">Projects</h5>
        <div class="row">
            <div class="row">
-            <div class="card m-5" id="" style="width: 18rem;" v-for="Testimonials in testimonials " :key="Testimonials">
+            <div class="card m-5" id="" style="width: 18rem;" v-for="Projects in project" :key="Projects">
       <div class="card-body">
-        <img class="card-images" :src=" Testimonials.profile" alt="Profile picture" width="200" height="200">
-        <h3 class="card-title">{{Testimonials.name}}</h3>
-        <h4 class="card-subtitle">{{ Testimonials.surname }}</h4>
-        <span class="card-text">{{Testimonials.quotes}}</span>
+          <h3 class="card-title">{{Projects.name}}</h3>
+        <img class="card-images" :src=" Projects.image" loading="lazy" alt="Profile picture" width="200" height="200">
+        <!-- <h4 class="card-subtitle">{{ Projects.description }}</h4>  -->
+        <a :href="Projects.gitHub" class="btn btn-primary">gitHub</a>
+        <a :href="Projects.netlify" class="btn btn-primary">Netlify</a>
       </div>
     </div>
     </div>
-       </div>
+ </div>
     </div>
-</template>
     </div>
 </template>
 <script>
 export default {
+    computed:{
+        project(){
+            return this.$store.state.projects;
+        }
+    },
+    mounted(){
+        this.$store.dispatch("fetchProjects")
+    }
     
 }
 </script>

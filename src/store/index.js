@@ -8,7 +8,7 @@ export default createStore({
     education: null,
     skills: null,
     testimonials: null,
-    Projects: null
+    projects: null
   },
   getters: {
   },
@@ -23,7 +23,7 @@ export default createStore({
     state.testimonials = value
   },
   setProjects(state, value) {
-    state.Projects = value
+    state.projects = value
   }
   },
 actions: {
@@ -48,6 +48,7 @@ actions: {
   async fetchProjects(context) {
     let res = await fetch(dataUrl)
     let {projects} = await res.json() 
+    console.log(projects); 
     context.commit('setProjects', projects);
   },
   catche (error) {
