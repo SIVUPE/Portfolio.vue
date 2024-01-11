@@ -22,5 +22,8 @@
 </script>
 
 <style scoped>
+body{
+    margin: 210px;
+}
 
 </style>

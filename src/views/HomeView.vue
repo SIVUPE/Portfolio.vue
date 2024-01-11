@@ -1,20 +1,17 @@
 <template>
 
-  <div>
+  <div class="row">
     <h1 class="block-effect 100vh" style="--td: 1.2s">
       <div class="block-reveal" style="--bc: #8080f274; --d: .1s">HI I'M SIVUYISIWE PETER</div>
       <div class="block-reveal" style="--bc: #bf4060; --d: .5s">WELCOME</div>
       <div class="block-reveal" style="--bc: #8080f274; --d: .1s"> TO MY CODING </div>
       <div class="block-reveal" style="--bc: #bf4060; --d: .5s">JOURNEY!</div>
-  </h1>
-    
+    </h1> 
   </div>
+ 
+  
+      
 
-<a href="https://abubakersaeed.netlify.app/designs/d12-block-revealing-effect" class="abs-site-link" rel="nofollow noreferrer" target="_blank"></a>
-
-
-
-<a href="https://abubakersaeed.netlify.app/designs/d12-block-revealing-effect" class="abs-site-link" rel="nofollow noreferrer" target="_blank">abs/designs/d12-block-revealing-effect</a>
 </template>
 
 <script>
@@ -34,6 +31,12 @@ h1{
   background-repeat: no-repeat ;
   background-size: cover;
 }
+
+img[alt="profile"]{
+  margin-right: 70%;
+
+}
+
 
 
 </style>
