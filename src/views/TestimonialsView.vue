@@ -28,6 +28,19 @@ export default {
     
 }
 </script>
-<style lang="">
+<style >
+body{
+    background-color: #6a9ac4;
+}
+.card{
+    background-color: #021627;
+    color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-left: 16px;
+  /* Add any other styling as needed */
+}
+
     
 </style>

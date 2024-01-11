@@ -17,3 +17,9 @@
     </div>
   </div>
 </template>
+
+<style >
+body{
+  background-color: #6a9ac4;
+}
+</style>
