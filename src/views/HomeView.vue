@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
 h1{
-  background-image: url("https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSkm3Ft4sC8lavWd3Bem0wsSt24eBQckqzdmzPixlz7hu_qXsFxh73_IFzLLwfEfNo8vO7kZL8mFXC0HNI1Uu5aiRH7gg=w640-h1300");
+  background-image: url("https://i.ibb.co/yX1nYHf/th-9.jpg");
   background-repeat: no-repeat ;
   background-size: cover;
 }

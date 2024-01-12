@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <RouterLink to="/">
-       <img  class="img-fluid" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSB1MzRn-0q7EqbbR8q0djjDMkYO8fShMPahMtIm046swEMJW_OIFoj24T_y0JS4Cf6SR2WGCxfC7o2brrEn5ctaYZc=w1172-h1412" alt="logo">
+       <img  class="img-fluid" src="https://i.ibb.co/RctXnP0/vue-logo.png" alt="logo">
     </RouterLink>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
