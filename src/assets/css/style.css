@@ -157,17 +157,17 @@ h2 {
   user-select: none;
 }
 
-img:hover {
+/* img:hover {
   transform: scale(1.1, 1.1);
-}
+} */
 
-img:active {
+/* img:active {
   transform: scale(1.1, 1.1);
   filter: 
     hue-rotate(220deg)
     drop-shadow(2px 4px 4px #222)
     sepia(0.3);
-}
+} */
 
 .form-item {
   position: relative;
@@ -220,6 +220,7 @@ h2 {
 img:hover {
   transform: scale(1.1, 1.1);
 }
+
 
 img:active {
   transform: scale(1.1, 1.1);
