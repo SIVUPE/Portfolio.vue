@@ -2,7 +2,7 @@
 
   <div class="row">
     <h1 class="block-effect 100vh" style="--td: 1.2s">
-      <div class="block-reveal" style="--bc: #8080f274; --d: .1s">HI I'M SIVUYISIWE PETER</div>
+      <div class="block-reveal" style="--bc: #8080f274; --d: .1s">HI I'M <span> SIVUYISIWE PETER</span></div>
       <div class="block-reveal" style="--bc: #bf4060; --d: .5s">WELCOME</div>
       <div class="block-reveal" style="--bc: #8080f274; --d: .1s"> TO MY CODING </div>
       <div class="block-reveal" style="--bc: #bf4060; --d: .5s">JOURNEY!</div>

@@ -359,7 +359,6 @@ p {
 }
 
 
-/* animations */
 @keyframes revealBlock {
   100% {
     color: #0f0f0f;
@@ -395,4 +394,7 @@ p {
   left: 20px;
   color: hsla(0, 0%, 0%, .6);
   font-size: 16px;
+}
+span{
+  color:#086efc;
 }
