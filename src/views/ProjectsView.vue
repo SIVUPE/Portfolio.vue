@@ -2,7 +2,7 @@
     <div>
      <div class="container vh-150">
         <h5 class="display-5">Projects</h5>
-       <div class="row">
+       <div class="row mx-5">
            <div class="row">
             <div class="card m-5" id="" style="width: 18rem;" v-for="Projects in project" :key="Projects">
       <div class="card-body">

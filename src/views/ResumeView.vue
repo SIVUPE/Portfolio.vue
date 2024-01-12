@@ -3,7 +3,7 @@
         <h1 class="display-5">resume</h1>
         <div class="container vh-150">
        <h5 >Education</h5>
-      <div class="row">
+      <div class="row mx-5">
            <div class="card m-5 " id="" style="width: 18rem;" v-for="Education in education " :key="Education">
      <div class="card-body">
        <img class="card-images" :src=" Education.picture" loading="lazy" alt="Profile picture" width="150" height="150">
@@ -18,7 +18,7 @@
     </div>
     <div class="container vh-150">
        <h5 >Skills</h5>
-      <div class="row">
+      <div class="row mx-5">
            <div class="card m-5 " id="" style="width: 12rem;" v-for="Skills in skills " :key="Skills">
      <div class="card-body">
        <img class="card-images" :src=" Skills.item" loading="lazy" alt="Profile picture" width="150" height="150">
