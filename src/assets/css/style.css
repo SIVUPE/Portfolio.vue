@@ -18,7 +18,7 @@ img[alt="logo"]{
     -webkit-font-smoothing: antialiased;
     -moz-osxsc-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
+    /* color: #2c3e50; */
   }
   
   nav {
@@ -27,7 +27,7 @@ img[alt="logo"]{
   
   nav a {
     font-weight: bold;
-    color: #2c3e50;
+    /* color: #2c3e50; */
   }
   
   /* nav a.router-link-exact-active {https://github.com/SIVUPE/Portfolio.vue/pull/3/conflict?name=src%252Fassets%252Fcss%252Fstyle.css&ancestor_oid=6c55b7a2e641ccb77a8104cead76113fcaa15fcb&base_oid=6af0380c9985085d31779dfa8d7479617b0ff76a&head_oid=d68c3b6365f890f812b3f383a3ebf8e224b02937
@@ -55,12 +55,10 @@ img[alt="logo"]{
 .block-reveal{
   font-style: sherif;
 }
-body {
-  background-color: #6a9ac4;
-}
+
 
 #contact {
-  background-color: #6a9ac4;
+  /* background-color: #6a9ac4; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,7 +163,7 @@ h2 {
   transform: scale(1.1, 1.1);
   filter: 
     hue-rotate(220deg)
-    drop-shadow(2px 4px 4px #222)
+    drop-shadow(2px 4px 4px #22)
     sepia(0.3);
 } */
 
